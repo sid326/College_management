@@ -1,0 +1,56 @@
+  ul{
+        padding: 0;
+        list-style-type:  none;
+        //width: 100px;
+        //width: 20%;
+    }
+    ul li{
+        float: left;
+        width: 100px;
+        text-align: center;
+        width:270px;
+        position: relative;
+        z-index: 1000;
+        display:inline-table;
+        //border:#fd004e solid 1px;
+    }
+    ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: #333;
+        background: #f2f2f2;
+        text-decoration: none;
+        width: 100%;
+        position: relative;
+        text-transform: uppercase;
+        //display:inline-table;
+        background: #034676 url(images/pattern.png) repeat center center;
+        color: white;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: red url(images/pattern.png) repeat center center !important;
+        width: 100%;
+        display:inline-table;
+        position: relative;
+        border-radius: 20%;
+    }
+    ul li ul{
+        display: none;
+        width: 100%;
+        position: absolute;
+        float: left;
+        
+    }
+    ul li:hover ul{
+        display: block; /* display the dropdown */
+        width: 50%;
+        //position:fixed;
+        position: absolute;
+        float: left;
+    }
+#poly
+{
+    border: #034676 dotted thick;
+   
+}

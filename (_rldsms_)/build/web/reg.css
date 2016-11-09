@@ -1,0 +1,57 @@
+        .o
+        {
+            background-color: black;
+            width:100%;
+            margin-top:-10px; 
+            margin-left:-10px;
+            height: 80px;
+            
+        }
+        .o1
+        {
+            background-color: background;
+            width:600px;
+            margin-top:80px; 
+            box-shadow: 15px 15px 25px white; 
+            height: 550px;
+            //border: 10px blue dashed;
+           border-top-left-radius: 1em;
+            border-bottom-left-radius: 1em;
+           
+            transition: width 2s ,height 2s,transform 2s; 
+            color: chocolate;
+            font-size: 40px;
+            
+        }
+        .o1:hover
+        {
+          transform:skew(2deg);  
+       // transform:rotate(5deg);    
+            
+            
+        }
+        
+       #c1
+       {
+          color:blueviolet;
+          border: 5px solid greenyellow;
+          font-size: 15px;
+            border-radius: 2em;
+       }
+       #c1:hover
+        {
+            
+           background-color: skyblue;  
+        }
+          td
+       {
+           color: #404040;
+           font-size: 1px; 
+       }
+       #op
+       {
+             border: 5px solid greenyellow;
+           border-radius: 2em;
+          font-size:20px;  
+         color:  chocolate  ;  
+       }

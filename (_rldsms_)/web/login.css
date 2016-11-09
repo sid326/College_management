@@ -1,0 +1,141 @@
+           .t1
+            {
+                background-color: black;
+                width: 100%;
+                height: 80px;
+                padding-right: 16px;
+                margin-top: -8px;
+                margin-left: -8px;
+                color: silver;
+                
+               
+                
+            }
+            .t11
+            {
+                background-color: #939393;
+                height: 20px;
+                width: 100%;
+                padding-right: 16px;
+                
+            }
+            .t2
+            {
+               // background-color: green;
+                background-image: url("css.jpg");
+                width: 100%;
+                height: 560px;
+                margin-left: -10px;
+                padding-right: 18px;
+                opacity:.7;
+               filter: alpha(opacity=80);
+               background-repeat:repeat-y;
+               background-repeat: repeat-x;
+                
+            }
+            .t21
+            {
+                
+                opacity: 0.9;
+                alignment-adjust: central;
+                top: -20%;
+                //filter: alpha(opacity=60);
+                border:#333 outset medium;
+                width: 470px;
+                height: 320px;
+                background-color:antiquewhite;
+            }
+            .t3
+            {
+                
+            }
+            .t4
+            {
+                
+            }
+            #a
+            {
+                
+            }
+            #a1
+            {
+                
+                color: black;
+               
+                border:double red;
+            }
+            
+            #a2
+            {
+                
+            }
+            #ta
+            {
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                background-color:#ffffcc;
+                border:blue dashed thin;
+                width:15%;
+                font-family: "AR JULIAN";
+                font-size:20px;
+                    
+            }
+         
+            #ta:hover
+            {
+            background-color: red;
+            height: 20px;
+            //border-top:activeborder 10px ridge;
+            box-shadow:dimgrey 10px -10px 2px;
+            }
+            #ta1
+            {
+                //border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                background-color:#ffffcc;
+                border:blue dashed thin;
+                text-transform: capitalize;
+}
+            #ta1:hover
+            {
+                border-top-left-radius: 5px;
+                border-bottom-right-radius: 20px;
+                background-color: chartreuse;
+                border:#333 outset thin;
+                    
+            }
+            #t2b
+            {
+             
+                font-family: "Broadway";
+                height: 50px;
+                font-size: 20px;
+                //border-bottom-left-radius: 30px;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                border: #b72a30 groove 5px;
+                background-color: activecaption;
+                color: #b72a30;
+               
+            }
+            #t2b:hover
+            {
+                background-color: khaki;
+                height: 55px;
+            }
+#logoutbut
+{
+    width: 70px;
+    height: 25px;
+    background-color: #00ACE9;
+    color: silver;
+    font-weight: 900;
+    float: right;
+    margin-bottom: -10%;
+}
+#sideprofile
+{
+    width: 20%;
+    height: 400px;
+    
+}
